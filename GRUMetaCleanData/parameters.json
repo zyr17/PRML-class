@@ -1,0 +1,14 @@
+{
+	"model": "GRUMeta",
+	"datafolder": "../data/",
+	"traindata": "train965668.csv",
+	"testdata": "testclean.csv",
+	"testgroundtruth": "testcleangroundtruth.csv",
+	"testnumber": -1, 
+	"rnnhidden": 64, 
+	"batchsize": 512,
+	"learningrate": [[0, 0.0001], [20, 0.00001]], 
+	"epochnumber": 200,
+	"embedding": 10,
+	"seed": 12345679
+}
