@@ -1,0 +1,42 @@
+read images 2051 60000 28 28
+read labels 2049 60000
+read images 2051 10000 28 28
+read labels 2049 10000
+doing 0
+doing 1
+doing 2
+doing 3
+doing 4
+doing 5
+doing 6
+doing 7
+doing 8
+doing 9
+ridge: 0.7782833333333333
+doing 0
+doing 1
+doing 2
+doing 3
+doing 4
+doing 5
+doing 6
+doing 7
+doing 8
+doing 9
+kernel LDA: 0.29075000000000006
+doing 0
+doing 1
+doing 2
+doing 3
+doing 4
+doing 5
+doing 6
+doing 7
+doing 8
+doing 9
+kernel perceptron: 0.7258333333333333
+logistic regression: 0.819
+SVM: 0.783
+MLP with CrossEntrophyLoss: 0.833
+MLP with Softmax + KLDivLoss: 0.841
+CNN: 0.91
